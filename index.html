@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+</head>
+
+<body>
+
+    <!-- setting box -->
+    <div class="settings">
+        <div class="gear-container">
+            <i class="fas fa-cog  gear"></i>
+        </div>
+        <div class="color-settings settings-option">
+            <h4>Colors</h4>
+            <ul class="color-list">
+                <li data-color="#FF9800" class="active"></li>
+                <li data-color="#E91E63"></li>
+                <li data-color="#009688"></li>
+                <li data-color="#03A9F4"></li>
+                <li data-color="#4CAF50"></li>
+            </ul>
+        </div>
+        <div class="switched-option settings-option">
+            <h4>Random Backgrounds</h4>
+            <label>
+                <input type="checkbox" name="Random">
+                <div class="switch">
+                </div>
+            </label>
+        </div>
+        <div class="switched-option settings-option">
+            <h4>Hide/Show Navigation Bullets</h4>
+            <label>
+                <input type="checkbox" name="Show">
+                <div class="switch">
+                </div>
+            </label>
+        </div>
+        <button class="reset-option">Reset Options</button>
+    </div>
+
+    <!-- Navigtion Bullets -->
+    <nav class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+          <div class="tooltip">About</div>
+        </div>
+        <!-- <div class="bullet" data-section=".skills">
+          <div class="tooltip">Skills</div>
+        </div> -->
+        <div class="bullet" data-section=".gallary">
+          <div class="tooltip">Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+          <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+          <div class="tooltip">Features</div>
+        </div>
+    </nav>
+
+
+    <!-- start landing page -->
+    <section class="landing">
+        <div class="overlay"></div>
+        <header>
+            <div class="logo">Special Design</div>
+            <ul class="links">
+                <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                <li><a href="#" data-section=".gallary">Gallery</a></li>
+                <li><a href="#" data-section=".timeline">Timeline</a></li>
+                <li><a href="#" data-section=".features">Features</a></li>
+            </ul>
+        </header>
+        <div class="introduction">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, repellat corporis impedit vitae
+                asperiores facere voluptatum</p>
+        </div>
+    </section>
+
+    <!-- start about section -->
+    <div class="container">
+        <section class="about-us">
+            <div class="info-box">
+                <h2 class="heading-title">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsum, tenetur dolores esse
+                    magni ratione distinctio! Quod iusto neque fuga, maxime quos nostrum quibusdam dicta deserunt
+                    blanditiis non voluptate id?</p>
+            </div>
+            <div class="image-box">
+                <img src="images/about-us.jpg" alt="">
+            </div>
+        </section>
+    </div>
+
+
+    <!-- start Gallary section -->
+    <section class="gallary">
+        <div class="container">
+            <h2 class="heading-title">Gallary</h2>
+            <img src="images/01.jpg" alt="Image 1">
+            <img src="images/02.jpg" alt="Image 2">
+            <img src="images/03.jpg" alt="Image 3">
+            <img src="images/04.jpg" alt="Image 4">
+            <img src="images/05.jpg" alt="Image 5">
+            <img src="images/06.png" alt="Image 6">
+            <img src="images/07.jpg" alt="">
+            <img src="images/08.jpg" alt="">
+            <img src="images/09.jpg" alt="">
+            <img src="images/10.jpg" alt="">
+        </div>
+    </section>
+    <!-- start Timeline Section -->
+    <section class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2020</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Test Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam, similique,
+                            exercitationem doloremque sunt suscipit optio tenetur natus tempore odit modi provident
+                            dolores voluptatum quod nemo ex laborum esse tempora!</p>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Test Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam, similique,
+                            exercitationem doloremque sunt suscipit optio tenetur natus tempore odit modi provident
+                            dolores voluptatum quod nemo ex laborum esse tempora!</p>
+                    </div>
+                </div>
+
+                <div class="year">2021</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Test Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam, similique,
+                            exercitationem doloremque sunt suscipit optio tenetur natus tempore odit modi provident
+                            dolores voluptatum quod nemo ex laborum esse tempora!</p>
+                    </div>
+                </div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Test Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam, similique,
+                            exercitationem doloremque sunt suscipit optio tenetur natus tempore odit modi provident
+                            dolores voluptatum quod nemo ex laborum esse tempora!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="heading-title">Features</h2>
+        <div class="container">
+            <div class="feature-box">
+                <img src="images/programming.svg" alt="">
+                <h4>Development</h4>
+                <p>We are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feature-box">
+                <img src="images/advertising.svg" alt="">
+                <h4>Marketing</h4>
+                <p>We are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feature-box">
+                <img src="images/hosting-icon.svg" alt="">
+                <h4>Hosting</h4>
+                <p>We are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feature-box">
+                <img src="images/mobile-app.svg" alt="">
+                <h4>Mobile Develope</h4>
+                <p>We are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feature-box">
+                <img src="images/graphic-design.svg" alt="">
+                <h4>Cloud and Servers</h4>
+                <p>We are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feature-box">
+                <img src="images/web-design.svg" alt="">
+                <h4>SEO</h4>
+                <p>We are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
